@@ -2,10 +2,10 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     max-width: 1100px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 
@@ -14,25 +14,38 @@ header a:hover svg, .links a:hover svg {
     fill: #FFDA00;
     transition: ease 0.3s;
 }
+header img, .skillBar span, .projectgroup .badges div {
+    background-image: linear-gradient(to left, #1f9ef3, #7657ff);
+}
 
 
 
+header {
+    padding: 20px;
+}
 header img {
-    width: 300px;
-    background-image: linear-gradient(to left, #FFE346, #70C6FF);
+    width: 130px;
     border-radius: 300px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 15px;
 }
 header p {
     text-align: center;
-    margin: 0;
+    margin: 0 0 2px 0;
+}
+header #name {
+    font-size: 30px;
+    font-weight: 600;
+}
+header #job {
+    font-size: 17px;
 }
 header a {
     text-decoration: none;
 }
 header svg {
-    width: 60px;
-    height: 60px;
+    width: 25px;
+    height: 25px;
     fill: black;
     transition: ease 0.3s;
 }
@@ -49,7 +62,12 @@ h2 {
 p {
     font-size: 14px;
 }
-
+hr {
+    height: 1px;
+    background-color: #00000028;
+    border: none;
+    margin: 0 20px;
+}
 
 
 .skills, .projects {
@@ -87,7 +105,6 @@ p {
     border-radius: 4px;
 }
 .skillBar span {
-    background-image: linear-gradient(to left, #FFE346, #70C6FF);
     display: block;
     height: 100%;
     border-radius: 4px;
@@ -133,11 +150,10 @@ p {
     margin: 15px 0 0 0;
 }
 .projectgroup .badges div {
-    background-color: #FFDA00;
-    color: black;
+    color: white;
     font-size: 12px;
     display: inline-block;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
     padding: 2px 6px;
     border-radius: 6px;
 }
