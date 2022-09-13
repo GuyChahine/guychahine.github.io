@@ -53,7 +53,7 @@ header svg {
 
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin: 20px 40px;
 }
 h2 {
@@ -87,8 +87,20 @@ hr {
 
 
 
+.skillTitle {
+    
+}
 .skillgroup h2 {
+    display: inline-block;
+    vertical-align: middle;
     margin: 0;
+}
+.skillTitle img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
 }
 .skill {
     margin: 10px 0px;
@@ -109,7 +121,21 @@ hr {
     height: 100%;
     border-radius: 4px;
 }
-#skill1 {width: 75%}
+#python {width: 100%}
+#clustering {width: 100%}
+#classification {width: 80%}
+
+#vision {width: 80%}
+#nlp {width: 60%}
+#handwriting {width: 100%}
+
+#bigdata {width: 100%}
+#database {width: 60%}
+#cloud {width: 80%}
+
+#analysis {width: 80%}
+#visualization {width: 80%}
+#cleaning {width: 80%}
 
 
 
@@ -117,7 +143,7 @@ hr {
 .projectgroup img {
     width: 100%;
     height: 100px;
-    object-fit: none;
+    object-fit: cover;
     border-radius: 5px;
 }
 .projectgroup h2 {
