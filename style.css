@@ -10,6 +10,13 @@ body {
 
 
 
+header a:hover svg, .links a:hover svg {
+    fill: #FFDA00;
+    transition: ease 0.3s;
+}
+
+
+
 header img {
     width: 300px;
     background-image: linear-gradient(to left, #FFE346, #70C6FF);
@@ -20,9 +27,6 @@ header p {
     text-align: center;
     margin: 0;
 }
-header div {
-    display: inline;
-}
 header a {
     text-decoration: none;
 }
@@ -32,37 +36,39 @@ header svg {
     fill: black;
     transition: ease 0.3s;
 }
-header div:hover svg {
-    fill: #0000007c;
-    transition: ease 0.3s;
-}
-header a:hover svg{
-    fill: #FFDA00;
-    transition: ease 0.3s;
-}
+
 
 
 h1 {
     text-align: left;
     margin: 20px 40px;
 }
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 14px;
+}
 
 
 
-.skills {
+.skills, .projects {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 40px;
     justify-content: center;
 }
-.skillgroup {width: 44%}
-@media only screen and (max-width: 700px) {.skillgroup {width: 100%}}
-.skillgroup {
+.skillgroup, .projectgroup {
     margin: 10px 1%;
-    padding: 10px 2%;
+    padding: 20px 3%;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.skillgroup, .projectgroup {width: 42%}
+@media only screen and (max-width: 700px) {.skillgroup, .projectgroup {width: 100%}}
+
+
+
 .skillgroup h2 {
     margin: 0;
 }
@@ -87,3 +93,51 @@ h1 {
     border-radius: 4px;
 }
 #skill1 {width: 75%}
+
+
+
+
+.projectgroup img {
+    width: 100%;
+    height: 100px;
+    object-fit: none;
+    border-radius: 5px;
+}
+.projectgroup h2 {
+    text-align: left;
+    margin: 10px 0 2px 0;
+}
+.links {
+    text-align: left;
+}
+.links a {
+    margin: 0;
+    padding: 0;
+}
+.links svg {
+    margin: 0;
+    padding: 0;
+}
+.projectgroup p {
+    text-align: left;
+    margin: 10px 0px;
+}
+.projectgroup a {
+    text-decoration: none;
+}
+.projectgroup svg {
+    width: 22px;
+    height: 22px;
+}
+.projectgroup .badges {
+    margin: 15px 0 0 0;
+}
+.projectgroup .badges div {
+    background-color: #FFDA00;
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 3px;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
