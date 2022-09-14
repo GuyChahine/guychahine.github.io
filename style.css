@@ -8,8 +8,9 @@ body {
 
 
 header a:hover svg, .links a:hover svg {
-    fill: #FFDA00;
+    fill: #1f62f3;
     transition: ease 0.3s;
+    transform: scale(1.2);
 }
 header img, .skillBar span, .projectgroup .badges div {
     background-image: linear-gradient(to left, #1f9ef3, #7657ff);
@@ -78,11 +79,15 @@ hr {
     padding: 20px 3%;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s ease;
+    background-color: white;
 }
 .skillgroup, .projectgroup {width: 42%}
 @media only screen and (max-width: 700px) {.skillgroup, .projectgroup {width: 100%}}
 .skillgroup:hover, .projectgroup:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    transform: scale(1.05);
+    background-color: white;
+    transition: 0.3s ease;
 }
 
 
