@@ -123,21 +123,29 @@ hr {
     height: 100%;
     border-radius: 4px;
 }
-#python {width: 100%}
+#classification {width: 100%}
+#regression {width: 100%}
 #clustering {width: 100%}
-#classification {width: 80%}
+#tsf {width: 80%}
+#ensemble {width: 90%}
 
-#vision {width: 80%}
-#nlp {width: 60%}
-#handwriting {width: 100%}
+#cnns {width: 100%}
+#rnns {width: 100%}
+#gans {width: 100%}
+#nlp {width: 80%}
+#vision {width: 100%}
 
-#bigdata {width: 100%}
-#database {width: 60%}
-#cloud {width: 80%}
+#git {width: 100%}
+#docker {width: 80%}
+#logging {width: 90%}
+#aws {width: 90%}
+#fastapi {width: 90%}
 
-#analysis {width: 80%}
-#visualization {width: 80%}
-#cleaning {width: 80%}
+#scraping {width: 100%}
+#cleaning {width: 100%}
+#exploratory {width: 90%}
+#statistical {width: 90%}
+#bigdata {width: 80%}
 
 
 
