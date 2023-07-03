@@ -130,10 +130,10 @@ hr {
 #ensemble {width: 90%}
 
 #cnns {width: 100%}
-#rnns {width: 100%}
+#transfo {width: 100%}
 #gans {width: 100%}
-#nlp {width: 80%}
-#vision {width: 100%}
+#nlp {width: 90%}
+#vision {width: 90%}
 
 #git {width: 100%}
 #docker {width: 80%}
